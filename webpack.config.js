@@ -44,7 +44,7 @@ module.exports = (_, argv) => ({
       name: "user",
       filename: "remoteEntry.js",
       remotes: {
-        home: "home@https://tek-nix-home.vercel.app/remoteEntry.js"
+        home: "home@http://localhost:3000/remoteEntry.js"
       },
       exposes: {},
       shared: {
